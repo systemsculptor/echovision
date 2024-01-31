@@ -1,6 +1,4 @@
 
-const int trigPin = A7;
-const int echoPin = A6;
 float duration, distance;
 
 
