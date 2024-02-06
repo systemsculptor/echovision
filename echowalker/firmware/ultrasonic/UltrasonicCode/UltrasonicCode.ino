@@ -1,23 +1,23 @@
-
-
-
-
 void setup(){
+
+  int echoPin = D5;
+  int trigPin = D4;
+
   Serial.println("begining");
   Serial.begin(9600);
+
+  pinMode(trigPin, OUTPUT);
+  pinMode(echoPin, INPUT);
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
-  int trigPin = D4;
-  int echoPin = D5;
-
-  // put your setup code here, to run once:
-  pinMode(trigPin, OUTPUT);
-  pinMode(echoPin, INPUT);
-
+  float time;
+  float distance;
   digitalWrite(trigPin, LOW);
   delayMicroseconds(2);
+
+  println("hello");
+
   digitalWrite(trigPin, HIGH);
   delayMicroseconds(10);
 
@@ -29,8 +29,6 @@ void loop() {
   Serial.print(trigPin);
 
 
-  float duration;
-  float distance;
   duration = pulseIn(echoPin, HIGH);
   distance = (duration * .0343) / 2;
 
