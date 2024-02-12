@@ -1,9 +1,32 @@
 .navigation 
 {
-    background-color: #fff8f0;
+    display:flex;
+    background-color: #478947;
+    justify-content: space-around;
+    justify-content: flex-end;
 }
+
+.join 
+{
+
+    display:flex;
+    justify-content: flex-end
+}
+
+
 
 body 
 {
+    color: #F6F8FF;
     font-family :'Times New Roman', Times, serif;
+    
 }
+
+
+478947 // viridian
+AF3E4D // red
+BFCDE0 // blue // body 
+143642 //black
+392F5A // header 
+
+
