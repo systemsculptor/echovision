@@ -2,27 +2,51 @@
 {
     display:flex;
     background-color: #478947;
-    justify-content: space-around;
-    justify-content: flex-end;
+    justify-content: space-between;
+    justify-content: center;
+    font-size: large;
 }
 
 .join 
 {
 
     display:flex;
-    justify-content: flex-end
+    justify-content: flex-end;
+    font-size: x-large;
+    background-color: #96031A;
 }
 
+.quote {
 
+    display:flex; 
+    justify-content: center;
+    font-size: xx-large;
+    background-color: #003559;
 
-body 
+}
+
+.body 
 {
-    color: #F6F8FF;
+    color: #black;
     font-family :'Times New Roman', Times, serif;
     
 }
 
+.mission{
+    display: flex;
+    justify-content: flex-start;
+    background-color: #FAA916;
+    
+}
+.story
+{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #00A6A6;
 
+
+
+}
 478947 // viridian
 AF3E4D // red
 BFCDE0 // blue // body 
