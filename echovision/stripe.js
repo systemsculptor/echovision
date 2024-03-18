@@ -12,7 +12,7 @@ axios.get("https://api.stripe.com")
         console.log(error);
 
 
-
-    
     }
 }
+
+axios.get()
