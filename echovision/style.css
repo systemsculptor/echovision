@@ -2,6 +2,8 @@ body
 {
     color: #0d1b2a;
     background-color: #fefae0;
+    background-image: url("fruits.png");
+    background-size :auto;
     font-family: Baskerville, Baskerville Old Face, Garamond, Times New Roman, serif
 }
 
@@ -12,26 +14,28 @@ body
     justify-content: space-evenly;
     justify-content: center;
     font-size: large;
-
+    flex-direction :row;
     background-color:#faedcd;
     border-radius: 2px;
 }
 
-.register
+.logo {
+    float : left;
+
+
+
+}
+
+.join
 {
     display:flex;
     justify-content: right;
+    float:right;
+    flex-direction: column;
     font-size: x-large;
 }
 
 
-.login 
-{
-    display:flex;
-    justify-content:right;
-    font-size: x-large;
-
-}
 
 .quote 
 {
@@ -39,4 +43,16 @@ body
     justify-content: center;
     font-size: xx-large;
     border-radius : 10px;
+}
+
+
+.motivation 
+{
+    float: right;
+    background-color: white;
+    font-size :xx-large
+
+
+
+
 }
