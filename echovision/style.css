@@ -1,56 +1,58 @@
+body 
+{
+    color: #0d1b2a;
+    background-color: #fefae0;
+    background-image: url("fruits.png");
+    background-size :auto;
+    font-family: Baskerville, Baskerville Old Face, Garamond, Times New Roman, serif
+}
+
+
 .navigation 
 {
     display:flex;
-    background-color: #478947;
-    justify-content: space-between;
+    justify-content: space-evenly;
     justify-content: center;
     font-size: large;
+    flex-direction :row;
+    background-color:#faedcd;
+    border-radius: 2px;
 }
 
-.join 
+.logo {
+    float : left;
+
+
+
+}
+
+.join
 {
-
     display:flex;
-    justify-content: flex-end;
+    justify-content: right;
+    float:right;
+    flex-direction: column;
     font-size: x-large;
-    background-color: #96031A;
 }
 
-.quote {
 
+
+.quote 
+{
     display:flex; 
     justify-content: center;
     font-size: xx-large;
-    background-color: #003559;
-
+    border-radius : 10px;
 }
 
-.body 
+
+.motivation 
 {
-    color: #black;
-    font-family :'Times New Roman', Times, serif;
-    
-}
+    float: right;
+    background-color: white;
+    font-size :xx-large
 
-.mission{
-    display: flex;
-    justify-content: flex-start;
-    background-color: #FAA916;
-    
-}
-.story
-{
-    display: flex;
-    justify-content: flex-end;
-    background-color: #00A6A6;
 
 
 
 }
-478947 // viridian
-AF3E4D // red
-BFCDE0 // blue // body 
-143642 //black
-392F5A // header 
-
-
