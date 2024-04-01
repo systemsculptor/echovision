@@ -1,0 +1,9 @@
+Echovision.com
+
+	Languages:HTML, CSS, JS  
+	Framework:VUEJS
+	Placement:Flexbox:
+	Database:MongoDB
+	Server: NGINXS
+	Backend Framwork: Express:
+	Runtime environment Nodejs:
