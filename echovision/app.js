@@ -3,11 +3,12 @@ const app = vue.CreateApp({
 
     data(){
         return{
-            
+            "register" : "Register/register.html";
+            "login" : "Login/login.html";
+            "logo" : "Home/home.html";
 
-            
         }
-        test : 
+        
 
 
 
@@ -19,4 +20,4 @@ const app = vue.CreateApp({
 
 }) 
 
-app.
+app.mount(#body)

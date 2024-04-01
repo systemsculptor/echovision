@@ -53,7 +53,19 @@ body
     background-color: white;
     font-size :xx-large
 
+}
+
+
+.team {
+
+    
+}
 
 
 
+
+.socialMedia {
+    display:flex;
+    justify-content:center;
+    flex-direction: row;
 }
