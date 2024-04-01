@@ -3,8 +3,9 @@ body
     color: #0d1b2a;
     background-color: #fefae0;
     background-image: url("fruits.png");
-    background-size :auto;
-    font-family: Baskerville, Baskerville Old Face, Garamond, Times New Roman, serif
+    background-size : 100%;
+    opacity: 0.3;
+    font-family : Baskerville, Baskerville Old Face, Garamond, Times New Roman, serif;
 }
 
 

@@ -3,7 +3,7 @@ const app = vue.CreateApp({
 
     data(){
         return{
-
+            
 
             
         }
