@@ -2,9 +2,12 @@ body
 {
     color: #0d1b2a;
     background-color: #fefae0;
-    background-image: url("fruits.png");
-    background-size : 100%;
-    opacity: 0.3;
+    background-image: url("louis.jpg");
+    max-width : 100%;
+    background-color : cyan;
+    opacity : 1;
+    
+
     font-family : Baskerville, Baskerville Old Face, Garamond, Times New Roman, serif;
 }
 
@@ -17,17 +20,14 @@ body
     font-size: large;
     flex-direction :row;
     background-color:#faedcd;
-    border-radius: 2px;
+   
 }
 
 .logo {
     float : left;
-
-
-
 }
 
-.join
+.join 
 {
     display:flex;
     justify-content: right;
@@ -44,6 +44,7 @@ body
     justify-content: center;
     font-size: xx-large;
     border-radius : 10px;
+
 }
 
 
@@ -51,21 +52,24 @@ body
 {
     float: right;
     background-color: white;
-    font-size :xx-large
+    font-size :xx-large;
+    border-radius : 20px;
+    background-image: url("louis1.jpg");
+    background-size: 100%;
+    max-width : 100%;
+
 
 }
-
 
 .team {
-
-    
+    text-align : left;
+    float: left;
 }
 
 
-
-
-.socialMedia {
-    display:flex;
-    justify-content:center;
+.bottomPage {
     flex-direction: row;
+    justify-content: center;
+    size: 20px;
+    
 }
