@@ -1,43 +1,60 @@
 <!DOCTYPE html>
 <html>
-    <head>
 
+    <head>
     <title> Vision Shoes </title>
-    <link rel="stylesheet" href="style.css">
+
+    <!-- Import the CSS Files, may be more than one for organization purposes. -->
+    <link rel="stylesheet" href="style.css"> 
+    <!-- End of Import the CSS Files -->
+
+    <!-- Import js files, remember to put defer after each src -->
     <script src="https://unpkg.com/vue@3.2" defer> </script>
     <script src="app.js" defer> </script>
+    <!-- End of Import the JS files  -->
 
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4373033985261990"
-     crossorigin="anonymous"></script>
+    <!-- Google Ads,  -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4373033985261990" crossorigin="anonymous"></script>
     </head>
+    <!-- End of Google Ads -->
 
 <body class = "body">
-    <a class = "logo" href = "/home"> <img src = "logo.png"> LOGO </a>
+
+    
+    <a class = "logo" href = "/home"> <img src = "logo.png"> LOGO </a> <!-- Logo in the top left corner  -->
+  
+
+    <!-- Directories at the top bar   -->
     <section class = "navigation">
         <nav>
             <a v-bind:href="shoes"> &#10094;Shoes&#10095; </a>
             <a v-bind:href="men"> &#10094;Men&#10095; </a>
             <a v-bind:href = "women"> &#10094;Women&#10095;</a>
         </nav>
+
     </section>
+    <!-- End of directories at top bar  -->
 
 
 
-
+    <!-- Join Directories at Top Right   -->
     <section class = "join">
             <a v-bind:href = "register"> &#10096;Register&#10097; </a>
             <a v-bind:href = "Login"> &#10096;Login&#10097; </a>
     </section>
-                                                                                                            
+    <!--  end of Join Directories at Top Right   -->
+
+
+    <!-- Eye catching quote -->
     <section class = "quote">
 
         <h2> Vision should <br> not <b> incapitate </b> you. </h2>
 
     </section>
+      <!-- end --> 
 
 
-
-
+    <!-- Subsection to know our motivation    -->
     <sections class = "motivation"> 
         <h2> Changing Boundaries </h2>  
         <img src = "test">
@@ -46,10 +63,11 @@
             We aim to develop cutting edge applications for blind people
             and improve the field of accessability through our work. 
         </pre>
-
     </section>
+    <!-- end  -->
 
 
+    <!--  Subsection to know our team -->
     <div class = "team">
         <h2> Meet our Team ! </h2>
 
@@ -58,15 +76,17 @@
             We are a group of students from the cherry creek innovation 
             campus that cares about each student getting a equal oppurtunity
             with the same difficulty to succeed at life, 
-
         </pre>
-
     </div>
+
+
 
 
     <footer class = "bottomPage"> 
 
         <h2> Support our Work </h2>
+
+
         <div class = "socialMedia"> 
             <a href="https://instagram.com"> <img src = "instagram.jpg"></a>
             <a href="https://youtube.com"> <img src = "youtube.jpg"></a>

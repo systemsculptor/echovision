@@ -1,23 +1,23 @@
+
+
+
+
+/* Contains information that should persist through the webpage, fonts being one of them  */
+
 body 
 {
-    color: #0d1b2a;
-    background-color: #fefae0;
-    background-image: url("louis.jpg");
-    max-width : 100%;
-    background-color : cyan;
-    opacity : 1;
-    
-
     font-family : Baskerville, Baskerville Old Face, Garamond, Times New Roman, serif;
 }
 
 
-.navigation 
+/* This allows the top bar to be placed in a row view have spacing between all of them and start in the center to branch out  */
+.navigation /* Top bar for links */
 {
+    font-size: large;
     display:flex;
     justify-content: space-evenly;
-    justify-content: center;
-    font-size: large;
+    align-content: center;
+
     flex-direction :row;
     background-color:#faedcd;
    
