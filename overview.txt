@@ -1,0 +1,34 @@
+Echo Vision 
+
+	Overview: 
+		The website will function as a shop, advertisement center, and development news.
+		
+
+	Files and usage: 
+		index.html
+			The lively center of the website, it functions as a subdirectory for the links. and a general overview 
+			into the website 
+		Register/register.html 
+			This will allow users to register their account for the website, letting them access saved content and order
+			Details
+		Login/login.html
+			This will allow users to login into the website, letting them access saved content and configure their own
+			internet personality. 
+		app.js
+			This enhances the simplicity of the website using vue.js, the data function allows links for websites, paths for
+			subdirectories to be stored into variables.
+		style.css
+			Decorate the website and enhance user experience.
+		animation.css 
+			This will allow the code to not be overflowed into a single file, reducing complexity, the animation.css
+			allows for enhanced user engagement and prolonged stay in the website
+
+
+
+
+
+Echo Walkers
+	Overview: 
+		A complete setup for auditory detection based off of distance to object. 
+
+	Files and usage:
