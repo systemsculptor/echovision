@@ -9,7 +9,7 @@
     <!-- End of Import the CSS Files -->
 
     <!-- Import js files, remember to put defer after each src -->
-    <script src="https://unpkg.com/vue@3.2" defer> </script>
+    <script src="https://unpkg.com/vue@3.0" defer> </script>
     <script src="app.js" defer> </script>
     <!-- End of Import the JS files  -->
 
@@ -18,18 +18,23 @@
     </head>
     <!-- End of Google Ads -->
 
-<body class = "body">
+<body class = "body" id ="body">
 
     
-    <a class = "logo" href = "/home"> <img src = "logo.png"> LOGO </a> <!-- Logo in the top left corner  -->
-  
+     <!-- Logo in the top left corner  -->
+     <a class = "logo" v-bind:href = "logo"> <img src = "logo.png"> </a> 
 
+     <section class = "join">
+        <a :href = "register"> Register </a>
+        <a :href = "login"> Login </a>
+</section>
     <!-- Directories at the top bar   -->
     <section class = "navigation">
         <nav>
-            <a v-bind:href="shoes"> &#10094;Shoes&#10095; </a>
-            <a v-bind:href="men"> &#10094;Men&#10095; </a>
-            <a v-bind:href = "women"> &#10094;Women&#10095;</a>
+            
+            <a :href="products"> &#10094;Products&#10095; </a>
+            <a :href="solutions"> &#10094;Solutions&#10095; </a>
+            <a :href = "support"> &#10094;Support&#10095;</a>
         </nav>
 
     </section>
@@ -38,17 +43,14 @@
 
 
     <!-- Join Directories at Top Right   -->
-    <section class = "join">
-            <a v-bind:href = "register"> &#10096;Register&#10097; </a>
-            <a v-bind:href = "Login"> &#10096;Login&#10097; </a>
-    </section>
+   
     <!--  end of Join Directories at Top Right   -->
 
 
     <!-- Eye catching quote -->
     <section class = "quote">
 
-        <h2> Vision should <br> not <b> incapitate </b> you. </h2>
+        <h2> Vision should not <b> incapacitate </b> you. </h2>
 
     </section>
       <!-- end --> 
@@ -57,7 +59,7 @@
     <!-- Subsection to know our motivation    -->
     <sections class = "motivation"> 
         <h2> Changing Boundaries </h2>  
-        <img src = "test">
+        <img src = "test.jpg ">
 
         <pre> 
             We aim to develop cutting edge applications for blind people
@@ -71,7 +73,7 @@
     <div class = "team">
         <h2> Meet our Team ! </h2>
 
-        <img src="test.png">
+        <img src="basda.jpg">
         <pre>
             We are a group of students from the cherry creek innovation 
             campus that cares about each student getting a equal oppurtunity
@@ -83,10 +85,7 @@
 
 
     <footer class = "bottomPage"> 
-
         <h2> Support our Work </h2>
-
-
         <div class = "socialMedia"> 
             <a href="https://instagram.com"> <img src = "instagram.jpg"></a>
             <a href="https://youtube.com"> <img src = "youtube.jpg"></a>
