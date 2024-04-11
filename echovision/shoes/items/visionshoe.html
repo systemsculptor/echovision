@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+
+    <title> Vision Shoes </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/vue@3.2" defer> </script>
+    <script src="app.js" defer> </script>
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4373033985261990"
+     crossorigin="anonymous"></script>
+
+
+    
+    </head>
+
+<body>
+
+    <a class = "logo" v-bind:href = "logo"> <img src = "~/images/fruits.jpg"> </a> 
+
+    <section class = "join">
+    <a :href = "register"> Register </a>
+    <a :href = "login"> Login </a>
+    </section>
+    <!-- Directories at the top bar   -->
+    <section class = "navigation">
+    <nav>
+        <a :href ="arrival"> New Arrivals </a>
+        <a :href ="shoes"> Shoes </a>
+        <a :href="products"> Products</a>
+        <a :href="solutions"> Solutions </a>
+        <a :href="support"> Support</a>
+    </nav>
+
+    </section>
+
+</body>
+</html>
