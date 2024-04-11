@@ -7,6 +7,8 @@ const app = Vue.createApp({
         products: "products/products.html",
         solutions: "solutions/solutions.html",
         support: "support/support.html",
+        shoes: "shoes/shoes.html",
+        arrival: "arrival/arrival.html"
       }
     }
   });

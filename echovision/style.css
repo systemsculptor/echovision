@@ -1,7 +1,4 @@
 
-
-
-
 /* Contains information that should persist through the webpage, fonts being one of them  */
 body 
 {
@@ -30,11 +27,6 @@ body
     background-color: blueviolet;
 }
 
-.logo {
-    max-width: 20px;
-    border: 10px;
-}
-
 .join /* Login and Register */
 {
     display:flex;
@@ -61,29 +53,33 @@ body
 }
 
 
-.changing /*  */
+.block1 /*  */
 {
-    float: right;
-    font-size :xx-large;
-    border-radius : 20px;
-    background-image: url("images/louis.jpg");
-    background-size: 100%;
-    max-width : 100%;
+    justify-content: left;
+    font-size: 20px;
+    text-align : left;
 
-
-}
-
-.team {
-    justify-content: right;
-    background-image: url("images/louis1.jpg");
-    background-size: 100%;
-    max-width : 100%;
-}
-
-
-.bottomPage {
     
-    justify-content: center;
-    size: 20px;
+    
+
+}
+
+.block2 
+{
+   
+    align-content: right;
+    text-align: right;
+    font-size: 20px;
+    
+
+
+}
+
+
+.bottomBlock {
+
+
+    align-content: center;
+    text-align: center;
     
 }
