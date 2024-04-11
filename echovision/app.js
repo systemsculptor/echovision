@@ -9,8 +9,9 @@ const app = Vue.createApp({
         support: "support/support.html",
         shoes: "shoes/shoes.html",
         arrival: "arrival/arrival.html"
+        
       }
     }
   });
 
-  app.mount('#body');
+app.mount('#body');
