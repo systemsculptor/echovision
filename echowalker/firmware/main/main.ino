@@ -22,13 +22,17 @@ void loop() {
   // Prints the distance on the Serial Monitor
   Serial.print("Distance: ");
   Serial.println(distance);
-if (distance < 121){
-  tone(4, 600, 750); //If the distance is less than 121 cm but greater than 60 cm, plays tone
-} else if (distance < 60 ){
-  tone(4, 550, 250); //If the distance is less that 60cm but greater than 30 it plays this tone
-} else if (distance < 30){
-  tone(4, 600); //If distance is less than 30 it plays tone constant
-} else {
-  noTone(4); //If distance is greater than or equal to 30, no tone is played
-}
+if (distance > 110){
+  noTone(4);}
+else if (distance < 1){
+  noTone(4);}
+else if (110 >= distance) {
+  tone(4, 400, 750);}
+else if (60 >= distance) {
+  tone(4, 400, 500);}
+else if (distance < 30) {
+  tone(4, 400);}
+else {
+  noTone(4);}
+
 }
