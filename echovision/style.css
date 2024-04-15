@@ -28,6 +28,15 @@ body
    
 }
 
+
+.cart {
+
+
+    float : right;
+
+
+}
+
 .navigation:hover
 {
     background-color: blueviolet;
@@ -100,6 +109,7 @@ body
 .bottomBlock {
 
 
+    
     align-content: center;
     text-align: center;
     color: black;
@@ -107,15 +117,4 @@ body
     
 }
 
-.cart {
 
-
-    float : right;
-
-
-}
-
-img {
-
-    size: 30px;
-}
