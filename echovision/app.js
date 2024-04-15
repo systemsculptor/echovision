@@ -9,6 +9,10 @@ const app = Vue.createApp({
         support: "support/support.html",
         shoes: "shoes/shoes.html",
         arrival: "arrival/arrival.html"
+
+        tos : " tos/tos.html",
+        privacy : "privacy/privacy.html",
+        blog : "blog/blog.html"
         
       }
     }

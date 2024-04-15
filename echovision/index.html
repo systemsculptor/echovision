@@ -31,11 +31,21 @@
     <!-- Directories at the top bar   -->
     <section class = "navigation">
         <nav>
+            <a class = "logo" v-bind:href = "logo"> <img src = "logo.png"> </a> 
             <a :href="arrival"> New Arrivals </a>
             <a :href="shoes"> Shoes </a>
             <a :href="products"> Products</a>
             <a :href="solutions"> Solutions </a>
             <a :href="support"> Support</a>
+
+            <a>
+                <img src = "images/search.png>"
+            </a>
+
+            <a :href="cart" class = "cart">
+                
+                <img src = ""
+             </a>
         </nav>
 
     </section>
@@ -89,10 +99,21 @@
 
         <h2> Support our Work </h2>
 
+        <pre>
+            Thank you for taking interest in our product 
+            and we hope you will support us in the future 
+
+
+        </pre>
         <div class = "socialMedia"> 
             <a href="https://instagram.com"> <img src = "images/instagram.jpg" style="width: 200px"></a>
             <a href="https://youtube.com"> <img src = "images/YouTube-icon-SVG-512x512.png"></a>
             <a href="https://x.com"> <img src = "images/x.png"></a>
+
+
+            <a :href = "blog"> Blog  </a>
+            <a :href = "privacy"> Privacy Policy  </a>
+            <a :href = "tos"> Terms of service </a>
         </div>
         
     </footer>

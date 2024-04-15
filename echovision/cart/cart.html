@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -16,29 +17,32 @@
 
 <body>
 
+
+
+<a class = "logo" v-bind:href = "logo"> <img src = "logo.png"> </a> 
+
+     <section class = "join">
+        <a :href = "register"> Register </a>
+        <a :href = "login"> Login </a>
+</section>
+    <!-- Directories at the top bar   -->
     <section class = "navigation">
         <nav>
-            <a :href ="arrival"> New Arrivals </a>
-            <a :href ="shoes"> Shoes </a>
+            <a class = "logo" v-bind:href = "logo"> <img src = "logo.png"> </a> 
+            <a :href="arrival"> New Arrivals </a>
+            <a :href="shoes"> Shoes </a>
             <a :href="products"> Products</a>
             <a :href="solutions"> Solutions </a>
             <a :href="support"> Support</a>
+
+            <a :href="cart" class = "cart"> cart </a>
         </nav>
+
     </section>
 
 
-    
-    <h2> Login </h2>
+        <h2> Your Cart </h2>
 
-
-    <form> 
-        <label for="username"> Username </label>
-        <input type="text"
-        <label for="password"> Password </label>
-        <input type ="text">
-    </form>
-
-    <a href ="reset"> Reset your password</a> 
 
 
 
@@ -46,4 +50,3 @@
 
 
 </body>
-</html>
