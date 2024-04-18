@@ -5,6 +5,7 @@ body
     background-color :white;
     color: whitesmoke;
     font-family : Baskerville, Baskerville Old Face, Garamond, Times New Roman, serif;
+    background-image: url(background.jpg);
 }
 
 
@@ -72,8 +73,7 @@ body
     justify-content: center;
     font-size: 120px;
     border-radius : 10px;
-    background-color: #333; 
-    color : white;
+    color : blue;
    
 
 }

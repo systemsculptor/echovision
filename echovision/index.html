@@ -6,6 +6,7 @@
 
     <!-- Import the CSS Files, may be more than one for organization purposes. -->
     <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="animation.css"
     <!-- End of Import the CSS Files -->
 
     <!-- Import js files, remember to put defer after each src -->
@@ -69,6 +70,7 @@
     <div class = "quote">
 
         <h2> Vision should not <b> incapacitate </b> you. </h2>
+        
 
     </div>
       <!-- end --> 
@@ -113,17 +115,28 @@
 
         </pre>
     
-        <div class = "socialMedia"> 
-            <a href="https://instagram.com"> <img src = "images/instagram.jpg" style="width: 5%; height: auto;"></a>
-            <a href="https://youtube.com"> <img src = "images/YouTube-icon-SVG-512x512.png" style="width: 5%; height: auto;"> </a>
-            <a href="https://x.com"> <img src = "images/x.png" style="width: 5%; height: auto;"></a>
-
-
-            <a :href = "blog"> Blog  </a>
-            <a :href = "privacy"> Privacy Policy  </a>
-            <a :href = "tos"> Terms of service </a>
+        <div class="socialMedia" style="display: flex; justify-content: space-between;">
+            <div>
+                <a href="https://instagram.com">
+                    <img src="images/instagram.jpg" style="width: 100%; height: auto;">
+                </a>
+            </div>
+            <div>
+                <a href="https://youtube.com">
+                    <img src="images/YouTube-icon-SVG-512x512.png" style="width: 100%; height: auto;">
+                </a>
+            </div>
+            <div>
+                <a href="https://x.com">
+                    <img src="images/x.png" style="width: 100%; height: auto;">
+                </a>
+            </div>
+            <div>
+                <a :href="blog">Blog</a>
+                <a :href="privacy">Privacy Policy</a>
+                <a :href="tos">Terms of service</a>
+            </div>
         </div>
-        
     </footer>
 
 

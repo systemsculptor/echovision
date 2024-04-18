@@ -17,6 +17,20 @@ app.get('/', (req, res) => {
 });
 
 
+app.get('/about', (req, res) => {
+
+  res.sendFile(path.join(__dirname, '/shoes/items/boots/boot.html'))
+
+})
+
+
+app.get('/register', (req, res) => {
+  res.sendFile(path.join(__dirname, 'support/support.html'));
+});
+
+
+
+
 app.get('/register', (req, res) => {
   res.sendFile(path.join(__dirname, 'register/register.html'));
 });
@@ -30,6 +44,7 @@ app.get('/login', (req, res) => {
 app.get('/products', (req, res) => {
   res.sendFile(path.join(__dirname, 'products/products.html'));
 });
+
 
 
 app.get('/shoes', (req, res) => {

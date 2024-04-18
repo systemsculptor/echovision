@@ -1,6 +1,71 @@
-@keyframes {
+@keyframes slideInFromBottom {
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
 
 
 
-    
+@keyframes leftToRight {
+    0% {
+        transform: translateX(100%)
+        opacity: 0;
+    }
+    100% {
+
+        transform: translateX(0);
+        opacity 1; 
+    }
+}
+
+
+@keyframes rightToLeft {
+    0% {
+        transform: translateX(-100%)
+        opacity: 0;
+    }
+    100% {
+
+        transform: translateX(0);
+        opacity 1; 
+    }
+}
+
+
+
+.quote {
+    animation: slideInFromBottom 2s ease-out;
+}
+
+a {
+    color: black;
+    transition: color 0.5s ease-in-out;
+}
+a:hover {
+    color: red;
+}
+
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+div {
+    animation: spin 2s linear infinite;
+}
+
+
+.background {
+    background-image: url('background.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
