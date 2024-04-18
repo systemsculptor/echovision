@@ -13,7 +13,7 @@
 
 @keyframes leftToRight {
     0% {
-        transform: translateX(100%)
+        transform: translateX(100%);
         opacity: 0;
     }
     100% {
@@ -37,6 +37,12 @@
 }
 
 
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
 
 .quote {
     animation: slideInFromBottom 2s ease-out;
@@ -51,14 +57,8 @@ a:hover {
 }
 
 
-@keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-}
-
-
 div {
-    animation: spin 2s linear infinite;
+    animation: spin 0.5s linear infinite;
 }
 
 
@@ -69,3 +69,4 @@ div {
     background-repeat: no-repeat;
     background-size: cover;
 }
+

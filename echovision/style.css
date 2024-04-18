@@ -3,7 +3,6 @@
 body 
 {   
     background-color :white;
-    color: whitesmoke;
     font-family : Baskerville, Baskerville Old Face, Garamond, Times New Roman, serif;
     background-image: url(background.jpg);
 }
@@ -22,8 +21,7 @@ body
     background-color: #9BA0BC;
     border-radius: 20px;
     font-size: x-large;
-    
-    color: orange;
+
 
     box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.5);
    
@@ -38,10 +36,7 @@ body
 
 }
 
-.navigation:hover
-{
-    background-color: blueviolet;
-}
+
 
 .join /* Login and Register */
 {
@@ -49,13 +44,6 @@ body
     float:right;
     flex-direction: column;
     font-size: x-large;
-}
-
-.join:hover 
-{
-    background-color: royalblue;
-
-
 }
 
 .logo
@@ -74,8 +62,7 @@ body
     font-size: 120px;
     border-radius : 10px;
     color : blue;
-   
-
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.5);
 }
 
 
